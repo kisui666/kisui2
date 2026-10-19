@@ -1,0 +1,98 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {}
+  },
+  "pages": [
+    {
+      "path": "pages/game/index",
+      "style": {
+        "navigationBarTitleText": "翁法罗斯 · 如我所书",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0b0714",
+        "navigationBarTextStyle": "white",
+        "app-plus": {
+          "bounce": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/onboard/index",
+      "style": {
+        "navigationBarTitleText": "踏上逐火之旅",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0b0714",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/ending/index",
+      "style": {
+        "navigationBarTitleText": "如我所书",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0b0714",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/journal/index",
+      "style": {
+        "navigationBarTitleText": "冒险日志",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0b0714",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/codex/index",
+      "style": {
+        "navigationBarTitleText": "翁法罗斯图鉴",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0b0714",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/archive/index",
+      "style": {
+        "navigationBarTitleText": "轮回档案",
+        "navigationStyle": "custom",
+        "backgroundColor": "#0b0714",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "翁法罗斯 · 如我所书",
+    "navigationBarBackgroundColor": "#0b0714",
+    "backgroundColor": "#0b0714",
+    "app-plus": {
+      "background": "#0b0714"
+    }
+  },
+  "tabBar": {
+    "color": "#6f6486",
+    "selectedColor": "#f2c572",
+    "backgroundColor": "#120c20",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/game/index",
+        "text": "逐火"
+      },
+      {
+        "pagePath": "pages/journal/index",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/codex/index",
+        "text": "图鉴"
+      },
+      {
+        "pagePath": "pages/archive/index",
+        "text": "档案"
+      }
+    ]
+  }
+}
